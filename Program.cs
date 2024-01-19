@@ -1,31 +1,28 @@
-﻿try {
-    Console.WriteLine("Введите размер массива: ");
-    int n = Int32.Parse(Console.ReadLine());
+Console.WriteLine("Калькулятор");
 
-    var rand = new Random();
-    int[] mass = new int[n];
+Console.WriteLine("Введите число A:");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число B:");
+int b = int.Parse(Console.ReadLine());
 
-    for (int i = 0; i < n; i++)
-        mass[i] = rand.Next(-100, 100);
+Console.Write("Выбери действие: 1 - сложение, 2 - вычитание, 3 - умножение, 4 - деление");
+string choise = Console.ReadLine();
+
+switch (choise) {
+    case "1": Console.WriteLine(sum(a, b));
+    break;
     
-    Console.Write("Ваш массив: ");
-
-    foreach(var item in mass)
-    {
-        Console.Write(item.ToString() + " ");
-    }
-
-    Array.Reverse(mass);
-
-    Console.Write("\nВаш массив в обратном порядке: ");
+    case "2": Console.WriteLine(difference(a, b));
+    break;
     
-    foreach(var item in mass)
-    {
-        Console.Write(item.ToString() + " ");
-    }
-
+    case "3": Console.WriteLine(summ(a, b));
+    break;
+    
+    case "4": Console.WriteLine(summ(a, b));
+    break;
+    
+    default:
+        Console.WriteLine("Неверные данные");
+        break;
 }
-catch {
-    Console.WriteLine("Неверный ввод размера массива");
-}
-// Проверка изменений в файле
+    
