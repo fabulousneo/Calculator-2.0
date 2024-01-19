@@ -18,7 +18,7 @@ switch (choise) {
     case "3": multiplication(a, b);
     break;
     
-    case "4": division(a, b);
+    case "4": Console.division(a, b);
     break;
     
     default:
