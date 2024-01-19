@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+
 Console.WriteLine("Калькулятор");
 
 Console.WriteLine("Введите число A:");
@@ -11,11 +13,18 @@ string choise = Console.ReadLine();
 switch (choise) {
     case "1": Console.WriteLine(summ(a, b));
     break;
+    
     case "2": Console.WriteLine(summ(a, b));
     break;
+    
     case "3": Console.WriteLine(summ(a, b));
     break;
+    
     case "4": Console.WriteLine(summ(a, b));
     break;
+    
+    default:
+        Console.WriteLine("Неверные данные");
+        break;
 }
     
