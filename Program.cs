@@ -1,1 +1,1 @@
-﻿Console.WriteLine("Калькулятор");
+Console.WriteLine("Калькулятор");

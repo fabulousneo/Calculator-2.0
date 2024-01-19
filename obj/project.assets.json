@@ -8,25 +8,31 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/user/.nuget/packages/": {}
+    "C:\\Users\\Apillene\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/C#/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Apillene\\Source\\Repos\\Calculator-2.0\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "/Users/user/Desktop/C#/ConsoleApp1/ConsoleApp1.csproj",
-      "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/C#/ConsoleApp1/obj/",
+      "projectPath": "C:\\Users\\Apillene\\Source\\Repos\\Calculator-2.0\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Apillene\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Apillene\\Source\\Repos\\Calculator-2.0\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Apillene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,17 +56,11 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
       }
     }
   }
