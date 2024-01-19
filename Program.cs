@@ -1,5 +1,5 @@
-﻿void Multiplication (int a, int b) // Функция, выполняющая действие умножения
+﻿void Division (int a, int b) // Функция, выполняющая действие деления
 {
-    int mult = a * b;
-    Console.WriteLine("Произведение чисел равно: " + mult);
+    int div = a / b;
+    Console.WriteLine("Деление чисел равно: " + div);
 }
