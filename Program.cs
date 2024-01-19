@@ -1,5 +1,3 @@
-using System.Linq.Expressions;
-
 Console.WriteLine("Калькулятор");
 
 Console.WriteLine("Введите число A:");
@@ -11,10 +9,10 @@ Console.Write("Выбери действие: 1 - сложение, 2 - вычи
 string choise = Console.ReadLine();
 
 switch (choise) {
-    case "1": Console.WriteLine(summ(a, b));
+    case "1": Console.WriteLine(sum(a, b));
     break;
     
-    case "2": Console.WriteLine(summ(a, b));
+    case "2": Console.WriteLine(difference(a, b));
     break;
     
     case "3": Console.WriteLine(summ(a, b));
