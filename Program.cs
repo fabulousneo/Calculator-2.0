@@ -1,5 +1,5 @@
-﻿void difference (int a, int b) // Функция, выполняющая действие разности
+﻿void Multiplication (int a, int b) // Функция, выполняющая действие разности
 {
-    int dif = a - b;
-    Console.WriteLine("Разность чисел равна: " + dif);
+    int mult = a * b;
+    Console.WriteLine("Произведение чисел равно: " + mult);
 }
