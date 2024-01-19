@@ -15,10 +15,10 @@ switch (choise) {
     case "2": Console.WriteLine(difference(a, b));
     break;
     
-    case "3": Console.WriteLine(summ(a, b));
+    case "3": Console.WriteLine(multiplication(a, b));
     break;
     
-    case "4": Console.WriteLine(summ(a, b));
+    case "4": Console.WriteLine(division(a, b));
     break;
     
     default:

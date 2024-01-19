@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/C#/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/Users/user/Calculator-2.0/ConsoleApp1.csproj": {}
   },
   "projects": {
-    "/Users/user/Desktop/C#/ConsoleApp1/ConsoleApp1.csproj": {
+    "/Users/user/Calculator-2.0/ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/C#/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/Users/user/Calculator-2.0/ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "/Users/user/Desktop/C#/ConsoleApp1/ConsoleApp1.csproj",
+        "projectPath": "/Users/user/Calculator-2.0/ConsoleApp1.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/C#/ConsoleApp1/obj/",
+        "outputPath": "/Users/user/Calculator-2.0/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
