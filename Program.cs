@@ -9,16 +9,16 @@ Console.Write("Выбери действие: 1 - сложение, 2 - вычи
 string choise = Console.ReadLine();
 
 switch (choise) {
-    case "1": Console.WriteLine(sum(a, b));
+    case "1": sum(a, b);
     break;
     
-    case "2": Console.WriteLine(difference(a, b));
+    case "2": difference(a, b);
     break;
     
-    case "3": Console.WriteLine(multiplication(a, b));
+    case "3": multiplication(a, b);
     break;
     
-    case "4": Console.WriteLine(division(a, b));
+    case "4": division(a, b);
     break;
     
     default:
