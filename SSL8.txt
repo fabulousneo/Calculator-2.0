@@ -1,7 +1,7 @@
-Описание сертификата https://www.codewars.com/
+Описание сертификата https://practicum.yandex.ru/
 
-Общее имя (ЦС)	codewars.com
-Организация	Cloudflare, Inc.
+Общее имя (ЦС)	praktikum.yandex.ru
+Организация	YANDEX LLC
 Общее имя (ЦС)	Cloudflare Inc ECC CA-3
 Организация	Cloudflare, Inc.
 Дата выдачи	четверг, 4 мая 2023 г. в 03:00:00
