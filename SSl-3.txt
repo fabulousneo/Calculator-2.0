@@ -1,0 +1,7 @@
+Описание сертификата сайта https://web.telegram.org/k/
+
+1. Серийный номер: 3E:57:11:CD:67:A1:DA:3F
+2. Алгоритм подписи сертификата: PKCS #1 SHA-256 с шифрованием RSA
+3. Издатель: CN = Go Daddy Secure Certificate Authority - G2 OU = http://certs.godaddy.com/repository/ O = GoDaddy.com, Inc. L = Scottsdale ST = Arizona C = US
+4. Действителен с: 30.08.2023, 03:40:43 GMT+3
+5. Действителен по: 30.09.2024, 03:40:43 GMT+3
